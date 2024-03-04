@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 2rem 3.5rem;
+
+  font-size: 1.25rem;
+  font-weight: 800;
+
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  background-color: var(--elements);
+}
+.header__title {
+  font-weight: 800;
+  color: var(--text);
+}
+.header__theme-cont {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+@media screen and (max-width: 660px) {
+  .header {
+    padding: 1.5rem 2rem;
+    font-size: 0.9rem;
+  }
+}
